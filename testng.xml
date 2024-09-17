@@ -1,2 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="/Users/elizabethnyamu/Documents/Projects/appium"><classes><class name="org.example.SampleTest"><methods><include name="test"/></methods></class></classes></test></suite>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="Medium_Phone_API_35">
+        <classes>
+            <class name="org.saucelabs.test1">
+                <!--<methods>
+                    <include name="invalidUserName"/>
+                </methods>-->
+            </class>
+        </classes>
+    </test>
+</suite>
